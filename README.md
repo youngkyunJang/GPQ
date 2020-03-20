@@ -1,2 +1,2 @@
 # GPQ
-Generalized Product Quantization For Semi-supervised Image Retrieval - ACCV 2018
+Generalized Product Quantization Network For Semi-supervised Image Retrieval - CVPR 2020
