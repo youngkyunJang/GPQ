@@ -1,2 +1,2 @@
 # GPQ
-CVPR 2020 Accepted
+Generalized Product Quantization For Semi-supervised Image Retrieval - ACCV 2018
