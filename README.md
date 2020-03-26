@@ -1,6 +1,5 @@
-# GPQ CVPR 2020, Tensorflow Implementation
 # Generalized Product Quantization Network For Semi-supervised Image Retrieval
-
+GPQ CVPR 2020, Tensorflow Implementation
 Young Kyun Jang and Nam Ik Cho
 
 # Requirements
