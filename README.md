@@ -5,5 +5,5 @@ Young Kyun Jang and Nam Ik Cho
 # Requirements
 - Ubuntu=16.04
 - Tensorflow=1.14
-- tflearn=0.3.2
-- numpy=1.16.6
+- Tflearn=0.3.2
+- Numpy=1.16.6
