@@ -1,4 +1,4 @@
-# Generalized Product Quantization Network For Semi-supervised Image Retrieval
+# Generalized Product Quantization Network For Semi-supervised Image Retrieval (GPQ)
 Accepted to CVPR 2020, Tensorflow Implementation  
 Young Kyun Jang and Nam Ik Cho
 
