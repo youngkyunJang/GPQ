@@ -19,11 +19,19 @@ Young Kyun Jang and Nam Ik Cho
 ```
 |--GPQ-master
    |--cifar10
-      |--
-   
+      |--batches.meta
+      |--data_batch_1
+      |--data_batch_2
+      |--data_batch_3
+      |--data_batch_4
+      |--data_batch_5
+      |--test_batch
+      |--cifar10_Similarity.mat
    |--models
-
-
+      |--48bits_example.ckpt.data
+      |--48bits_example.ckpt.index
+      |--48bits_example.ckpt.meta
+      |--ImageNet_pretrained.mat
 ```
 
 
