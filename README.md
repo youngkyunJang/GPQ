@@ -16,11 +16,13 @@ Young Kyun Jang and Nam Ik Cho
 - Download pretrained model and data in <a href="https://drive.google.com/open?id=1BfyXFvcMMBhD2jWVNF_kFaFE5uNgpqII">here</a>
 - Extract them to the `/path/to/GPQ-master`
 
-### 3. Training
+### 3. Test
+- Modify `config.py` to load pretrained model (`model_load_path='./models/48bits_example.ckpt'`) with cifar10 similarity matrix.
+- 
 
-### 4. Validation
-
-
+### 4. Train
+-
+-
 
 
 # tSNE Visualization
