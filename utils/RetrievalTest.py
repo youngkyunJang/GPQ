@@ -162,7 +162,7 @@ def PQ_retrieval(sess, x, training_flag, feature, Z, n_book, db_x, test_x, label
         query_ax.set_title('Query')
         query_ax.axis('off')
 
-        for i in range(2,10):
+        for i in range(2,11):
             gallery_to_show = db_x[Rank[i][rnd_id]]
             gallery_to_show = color_deprocessing_toshow(gallery_to_show)
             gallery_ax = fig.add_subplot(2,5,i)
