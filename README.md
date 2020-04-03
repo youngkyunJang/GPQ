@@ -18,9 +18,11 @@ Young Kyun Jang and Nam Ik Cho
 
 ### 3. Test
 - Modify `config.py` to set the path as:  
-1. `model_load_path='./models/48bits_example.ckpt'`
-2. `cifar10_label_sim_path = './cifar10/cifar10_Similarity.mat'`
-
+```
+data_dir = '/path/to/GPQ-master/cifar10'
+cifar10_label_sim_path = '/path/to/GPQ-master/cifar10/cifar10_Similarity.mat'
+model_load_path='/path/to/GPQ-master/models/48bits_example.ckpt'
+```
 ### 4. Train
 -
 -
