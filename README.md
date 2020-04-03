@@ -17,15 +17,8 @@ Young Kyun Jang and Nam Ik Cho
 - Extract them to the `/path/to/GPQ-master`
 
 ### 3. Test
-- Modify `config.py` to set the path as:  
-```
-data_dir = '/path/to/GPQ-master/cifar10'
-cifar10_label_sim_path = '/path/to/GPQ-master/cifar10/cifar10_Similarity.mat'
-model_load_path='/path/to/GPQ-master/models/48bits_example.ckpt'
-```
+ - We are given total 60,000 images and labels of cifar10 dataset.
 ### 4. Train
--
--
 
 
 # tSNE Visualization
