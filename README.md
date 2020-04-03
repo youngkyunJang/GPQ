@@ -12,7 +12,8 @@ Young Kyun Jang and Nam Ik Cho
 - Matplotlib=3.2.1
 
 # Preparation
-Download [pretrained model and data] (<a href="https://drive.google.com/open?id=1BfyXFvcMMBhD2jWVNF_kFaFE5uNgpqII">Link</a> )
+1. Download [pretrained model and data](https://drive.google.com/open?id=1BfyXFvcMMBhD2jWVNF_kFaFE5uNgpqII)
+2. Extract both pretrained model and data to the `/path/to/project/`
 
 # tSNE Visualization
 
