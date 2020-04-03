@@ -17,9 +17,9 @@ Young Kyun Jang and Nam Ik Cho
 - Extract them to the `/path/to/GPQ-master`
 
 ### 3. Test
-- Modify `config.py` as follows:
-    load pretrained model (`model_load_path='./models/48bits_example.ckpt'`) with cifar10 similarity matrix.
-- 
+- Modify `config.py` to set the path as:  
+1. `model_load_path='./models/48bits_example.ckpt'`
+2. `cifar10_label_sim_path = './cifar10/cifar10_Similarity.mat'`
 
 ### 4. Train
 -
