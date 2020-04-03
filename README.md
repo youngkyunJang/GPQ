@@ -6,14 +6,15 @@ Young Kyun Jang and Nam Ik Cho
 
 ## Get Started
 
-### 1. Install requirements on your (conda) environment.
+### 1. Install requirements on your environment.
 - Ubuntu=16.04
 - Tensorflow=1.14
 - Tflearn=0.3.2
 - Numpy=1.16.6
 - Matplotlib=3.2.1
 
-### 2. Download [pretrained model and data](https://drive.google.com/open?id=1BfyXFvcMMBhD2jWVNF_kFaFE5uNgpqII)
+### 2. Download pretrained model and data.
+- <a href="https://drive.google.com/open?id=1BfyXFvcMMBhD2jWVNF_kFaFE5uNgpqII">Link</a>
 
 ### 3. Extract both pretrained model and data to the `/path/to/GPQ-master`
 
