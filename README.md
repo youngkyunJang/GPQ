@@ -15,6 +15,17 @@ Young Kyun Jang and Nam Ik Cho
 ### 2. Preparation.
 - Download pretrained model and data in <a href="https://drive.google.com/open?id=1BfyXFvcMMBhD2jWVNF_kFaFE5uNgpqII">here</a>
 - Extract them to the `/path/to/GPQ-master`
+- Make sure the tree seems as:  
+```
+|--GPQ-master
+   |--cifar10
+      |--
+   
+   |--models
+
+
+```
+
 
 ### 3. Test
  - We are given total 60,000 images and labels of cifar10 dataset.
