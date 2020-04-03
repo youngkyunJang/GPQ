@@ -16,7 +16,7 @@ config = tf.ConfigProto()
 config.gpu_options.per_process_gpu_memory_fraction = 0.9
 
 data_dir = './cifar10'
-ImagNet_pretrained_path = './ImageNet_pretrained'
+ImagNet_pretrained_path = './models/ImageNet_pretrained'
 cifar10_label_sim_path = './cifar10/cifar10_Similarity.mat'
 model_save_path = './models/'
 # load trained model
