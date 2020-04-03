@@ -1,5 +1,6 @@
 # GPQ
-Generalized Product Quantization Network for Semi-supervised Image Retrieval <a href="https://arxiv.org/abs/2002.11281">arxiv</a>   Accepted to CVPR 2020  
+Generalized Product Quantization Network for Semi-supervised Image Retrieval <a href="https://arxiv.org/abs/2002.11281">arxiv</a>  
+Accepted to CVPR 2020  
 Young Kyun Jang and Nam Ik Cho  
 
 ## Get Started
