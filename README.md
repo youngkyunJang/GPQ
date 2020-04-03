@@ -4,16 +4,19 @@
 Tensorflow Implementation  
 Young Kyun Jang and Nam Ik Cho
 
-# Preparation
-## 1. Install requirements on your (conda) environment.
+## Get Started
+
+### 1. Install requirements on your (conda) environment.
 - Ubuntu=16.04
 - Tensorflow=1.14
 - Tflearn=0.3.2
 - Numpy=1.16.6
 - Matplotlib=3.2.1
 
-## 2. Download [pretrained model and data](https://drive.google.com/open?id=1BfyXFvcMMBhD2jWVNF_kFaFE5uNgpqII)
-## 3. Extract both pretrained model and data to the `/path/to/GPQ-master`
+### 2. Download [pretrained model and data](https://drive.google.com/open?id=1BfyXFvcMMBhD2jWVNF_kFaFE5uNgpqII)
+
+### 3. Extract both pretrained model and data to the `/path/to/GPQ-master`
+
 
 # tSNE Visualization
 
