@@ -14,7 +14,7 @@ Young Kyun Jang and Nam Ik Cho
 - Matplotlib=3.2.1
 
 ### 2. Download pretrained model and data.
-- <a href="https://drive.google.com/open?id=1BfyXFvcMMBhD2jWVNF_kFaFE5uNgpqII">Link</a>
+- Google drive <a href="https://drive.google.com/open?id=1BfyXFvcMMBhD2jWVNF_kFaFE5uNgpqII">Link</a>
 
 ### 3. Extract both pretrained model and data to the `/path/to/GPQ-master`
 
