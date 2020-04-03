@@ -13,7 +13,7 @@ Young Kyun Jang and Nam Ik Cho
 
 # tSNE Visualization
 
-<p align="center"><img src="figure/tSNE_GPQ.png" width="900"></p>
+<p align="center"><img src="figures/tSNE_GPQ.png" width="900"></p>
 
 # Pretrained Model and Data
 <a href="https://drive.google.com/open?id=1BfyXFvcMMBhD2jWVNF_kFaFE5uNgpqII">Link</a> 
