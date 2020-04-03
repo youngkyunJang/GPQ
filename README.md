@@ -11,6 +11,10 @@ Young Kyun Jang and Nam Ik Cho
 - Numpy=1.16.6
 - Matplotlib=3.2.1
 
+# tSNE Visualization
+
+<p align="center"><img src="figure/tSNE_GPQ.png" width="900"></p>
+
 # Pretrained Model and Data
 <a href="https://drive.google.com/open?id=1BfyXFvcMMBhD2jWVNF_kFaFE5uNgpqII">Link</a> 
 
