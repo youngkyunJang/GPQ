@@ -33,10 +33,14 @@ Young Kyun Jang and Nam Ik Cho
       |--48bits_example.ckpt.meta
       |--ImageNet_pretrained.mat
 ```
-
-
 ### 3. Test
- - We are given total 60,000 images and labels of cifar10 dataset.
+ - From cifar10 dataset, we use 1,000 images for query and 54,000 images to build retrieval database.
+ - Make sure to set proper path in `config.py`.
+ - run `Demo.py`, it will show the retrieval result with mAP and stores visualized search results of a randomly extracted query image.
+ - Example
+ 
+ 
+ 
 ### 4. Train
 
 
