@@ -157,15 +157,15 @@ def PQ_retrieval(sess, x, training_flag, feature, Z, n_book, db_x, test_x, label
         fig.subplots_adjust(hspace=0.1, wspace=0.1)
         query_to_show = test_x[rnd_id]
         query_to_show = color_deprocessing_toshow(query_to_show)
-        query_ax = fig.add_subplot(3,5,1)
+        query_ax = fig.add_subplot(2,5,1)
         query_ax.imshow(query_to_show)
         query_ax.set_title('Query')
         query_ax.axis('off')
 
-        for i in range(2,16):
+        for i in range(2,10):
             gallery_to_show = db_x[Rank[i][rnd_id]]
             gallery_to_show = color_deprocessing_toshow(gallery_to_show)
-            gallery_ax = fig.add_subplot(3,5,i)
+            gallery_ax = fig.add_subplot(2,5,i)
             gallery_ax.imshow(gallery_to_show)
             gallery_ax.set_title('Rank %d'%(i-1))
             gallery_ax.axis('off')
