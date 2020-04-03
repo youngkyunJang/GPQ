@@ -36,7 +36,7 @@ Young Kyun Jang and Nam Ik Cho
 ### 3. Test
  - From cifar10 dataset, we use 1,000 images for query and 54,000 images to build retrieval database.
  - Make sure to set proper path in `config.py`.
- - run `Demo.py`, it will show the retrieval result with mAP and stores visualized search results of a randomly extracted query image.
+ - run `Demo.py`, it will show the retrieval result with mAP and stores visualized search results of a randomly extracted query.
  - Example
  
  
