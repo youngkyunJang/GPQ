@@ -13,8 +13,8 @@ Young Kyun Jang and Nam Ik Cho
 - Matplotlib=3.2.1
 
 ### 2. Preparation.
-- Download pretrained model and data in <a href="https://drive.google.com/open?id=1BfyXFvcMMBhD2jWVNF_kFaFE5uNgpqII">here</a>
-- Extract them to the `/path/to/GPQ-master`
+- Download pretrained model and data from <a href="https://drive.google.com/open?id=1BfyXFvcMMBhD2jWVNF_kFaFE5uNgpqII">here</a>.
+- Extract them to the `/path/to/GPQ-master`.
 - Make sure the tree seems as:  
 ```
 |--GPQ-master
