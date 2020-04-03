@@ -28,7 +28,7 @@ Young Kyun Jang and Nam Ik Cho
       |--test_batch
       |--cifar10_Similarity.mat
    |--models
-      |--48bits_example.ckpt.data
+      |--48bits_example.ckpt.data-00000-of-00001
       |--48bits_example.ckpt.index
       |--48bits_example.ckpt.meta
       |--ImageNet_pretrained.mat
