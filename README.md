@@ -37,7 +37,7 @@ Young Kyun Jang and Nam Ik Cho
 - From cifar10 dataset, we use 1,000 images for query and 54,000 images to build retrieval database.
 - We provide 48bits (12 codebooks with 2^4 codewords) pretrained model as an example.
 - Make sure to set proper path in `config.py`.
-- Run `Demo.py`, and it will show retrieval results with mAP and stores visualized result of a randomly extracted query.
+- Run `Demo.py`, it will print mAP and stores one of the visualized ranked-list.
 - Examples
  
  
