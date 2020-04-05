@@ -34,19 +34,31 @@ Young Kyun Jang and Nam Ik Cho
       |--ImageNet_pretrained.mat
 ```
 ### 3. Test
- - From cifar10 dataset, we use 1,000 images for query and 54,000 images to build retrieval database.
- - We provide 48bits pretrained model as an example.
- - Make sure to set proper path in `config.py`.
- - run `Demo.py`, it will show the retrieval result with mAP and stores visualized search results of a randomly extracted query.
- - Example
+- From cifar10 dataset, we use 1,000 images for query and 54,000 images to build retrieval database.
+- We provide 48bits (12 codebooks with 2^4 codewords) pretrained model as an example.
+- Make sure to set proper path in `config.py`.
+- Run `Demo.py`, and it will show the retrieval result with mAP and stores visualized search results of a randomly extracted query.
+- Examples
  
  
  
 ### 4. Train
+- We employ randomly selected 5,000 images with labels and 54,000 images without labels for semi-supervised learning.
+- To control the number of bits used for image retrieval, modify `config.py` to change the number of codebooks, codewords.
+- Run `train.py`, and it will save the model parameters for every 20 epochs.
 
 
 # tSNE Visualization
 
 <p align="center"><img src="figures/tSNE.png" width="900"></p>
 
-# Training
+## Citation
+```
+@InProceedings{GPQ,
+author = {Young Kyun Jang and Nam Ik Cho},
+title = {Generalized Product Quantization Network for Semi-supervised Image Retrieval},
+booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2020}
+}
+```
