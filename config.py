@@ -15,12 +15,16 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 config = tf.ConfigProto()
 config.gpu_options.per_process_gpu_memory_fraction = 0.9
 
+# Data path
 data_dir = './cifar10'
+
+# For training
 ImagNet_pretrained_path = './models/ImageNet_pretrained'
-cifar10_label_sim_path = './cifar10/cifar10_Similarity.mat'
 model_save_path = './models/'
-# load trained model
+
+# For evaluation
 model_load_path = './models/48bits_example.ckpt'
+cifar10_label_sim_path = './cifar10/cifar10_Similarity.mat'
 
 'Dataset info'
 # Source: 5,000, Target: 54,000
