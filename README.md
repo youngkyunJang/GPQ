@@ -65,7 +65,7 @@ While training, codewords move toward unlabeled data points, and at the same tim
 - Run `train.py`, and it will save the model parameters and checkpoints for every 20 epochs.
 
 
-# tSNE Visualization
+## tSNE Visualization
 
 <p align="center"><img src="figures/tSNE.png" width="900"></p>
 
