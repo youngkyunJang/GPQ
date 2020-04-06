@@ -11,7 +11,7 @@ Image retrieval methods that employ hashing or vector quantization have achieved
 
 <p align="center"><img src="figures/Overall_architecture.png" width="900"></p>
 
-## 2D Voronoi Illustration of Our Concept
+## 2D Voronoi Diagram of Our Concept
 <p align="center"><img src="figures/2D_voronoi_illustration.png" width="900"></p>
 
 
