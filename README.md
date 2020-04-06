@@ -7,8 +7,8 @@ Young Kyun Jang and Nam Ik Cho
 
 Image retrieval methods that employ hashing or vector quantization have achieved great success by taking advantage of deep learning. However, these approaches do not meet expectations unless expensive label information is sufficient. To resolve this issue, we propose the first quantization-based semi-supervised image retrieval scheme: Generalized Product Quantization (GPQ) network. We design a novel metric learning strategy that preserves semantic similarity between labeled data, and employ entropy regularization term to fully exploit inherent potentials of unlabeled data. Our solution increases the generalization capacity of the quantization network, which allows overcoming previous limitations in the retrieval community. Extensive experimental results demonstrate that GPQ yields state-of-the-art performance on large-scale real image benchmark datasets.
 
-<p align="center"><img src="figures/2D_voronoi_illustration_.png" width="900"></p>
-<p align="center"><img src="figures/Overall_architecture.png"></p>
+<p align="center"><img src="figures/2D_voronoi_illustration.png" width="900"></p>
+<p align="center"><img src="figures/Overall_architecture.png" width="900"></p>
 
 ## How to use
 
