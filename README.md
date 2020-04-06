@@ -28,7 +28,7 @@ While training, codewords move toward unlabeled data points, and at the same tim
 - Matplotlib=3.2.1
 
 ### 2. Preparation.
-- Download pretrained model and data from <a href="https://drive.google.com/open?id=1BfyXFvcMMBhD2jWVNF_kFaFE5uNgpqII">here</a>.
+- Download pretrained <a href="https://drive.google.com/open?id=1YDB0aB4NrFbL5ZSaE0PA8GXmiqyQYkHR">model</a> and <a href="https://drive.google.com/open?id=1T2V5JwFcgqyOA4d2gcsSzviYvPiwMCTX">data</a>.
 - Extract them to the `/path/to/GPQ-master`.
 - Make sure the tree seems as:  
 ```
