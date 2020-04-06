@@ -11,9 +11,12 @@ Image retrieval methods that employ hashing or vector quantization have achieved
 
 <p align="center"><img src="figures/Overall_architecture.png" width="900"></p>
 
+GPQ consitsts of three components: feature extractor *F*, PQ table *Z* and classifier *C*.
+
 ## 2D Voronoi Diagram of Our Concept
 <p align="center"><img src="figures/2D_voronoi_illustration.png" width="900"></p>
 
+Our goal is moving codewords toward unlabeled data points while clustering both labeled and unlabeled data points near codewords.
 
 ## How to use
 
