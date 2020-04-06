@@ -16,7 +16,7 @@ GPQ consitsts of three components: feature extractor *F*, PQ table *Z* and class
 ## 2D Voronoi Diagram of Our Concept
 <p align="center"><img src="figures/2D_voronoi_illustration.png" width="900"></p>
 
-Our goal is moving codewords toward unlabeled data points while clustering both labeled and unlabeled data points near codewords.
+While training, codewords move toward unlabeled data points and both labeled and unlabeled data points cluster near the codewords.
 
 ## How to use
 
