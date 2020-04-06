@@ -57,7 +57,7 @@ Image retrieval methods that employ hashing or vector quantization have achieved
 ### 4. Train
 - We employ randomly selected 5,000 images with labels and 54,000 images without labels for semi-supervised learning.
 - To control the number of bits used for image retrieval, modify `config.py` to change the number of codebooks, codewords.
-- Run `train.py`, and it will save the model parameters for every 20 epochs.
+- Run `train.py`, and it will save the model parameters and checkpoints for every 20 epochs.
 
 
 # tSNE Visualization
