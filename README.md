@@ -11,7 +11,7 @@ Image retrieval methods that employ hashing or vector quantization have achieved
 
 <p align="center"><img src="figures/Overall_architecture.png" width="900"></p>
 
-GPQ consitsts of three components: feature extractor *F*, PQ table *Z* and classifier *C*. All the components are trained with the small amount of labeled data and the large amount of unlabeled data.
+GPQ consitsts of three components: feature extractor *F*, PQ table *Z* and classifier *C*. All the components are trained with the small amount of labeled data with *N-pair Product Quantization loss* and the large amount of unlabeled data with *Subspace Entropy Mini-max loss*.
 
 ## 2D Voronoi Diagram of Our Concept
 <p align="center"><img src="figures/2D_voronoi_illustration.png" width="900"></p>
