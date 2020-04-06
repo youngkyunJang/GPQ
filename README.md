@@ -55,9 +55,9 @@ While training, codewords move toward unlabeled data points, and at the same tim
 - Run `Demo.py`, it will print mAP and stores one of the visualized ranked-list.
 - Examples
  
- <p align="center"><img src="figures/retrieval_result_307.png" width="900"></p>
+ <p align="center"><img src="figures/retrieval_result_307.png" width="600"></p>
  
- <p align="center"><img src="figures/retrieval_result_506.png" width="900"></p>
+ <p align="center"><img src="figures/retrieval_result_506.png" width="600"></p>
  
 ### 4. Train
 - We employ randomly selected 5,000 images with labels and 54,000 images without labels for semi-supervised learning.
