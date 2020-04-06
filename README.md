@@ -3,7 +3,11 @@ Tensorflow implementation of GPQ
 Accepted to CVPR 2020 - <a href="https://arxiv.org/abs/2002.11281">arxiv</a>  
 Young Kyun Jang and Nam Ik Cho  
 
-## Get Started
+## Abstract
+
+Image retrieval methods that employ hashing or vector quantization have achieved great success by taking advantage of deep learning. However, these approaches do not meet expectations unless expensive label information is sufficient. To resolve this issue, we propose the first quantization-based semi-supervised image retrieval scheme: Generalized Product Quantization (GPQ) network. We design a novel metric learning strategy that preserves semantic similarity between labeled data, and employ entropy regularization term to fully exploit inherent potentials of unlabeled data. Our solution increases the generalization capacity of the quantization network, which allows overcoming previous limitations in the retrieval community. Extensive experimental results demonstrate that GPQ yields state-of-the-art performance on large-scale real image benchmark datasets.
+
+## How to use
 
 ### 1. Install requirements on your environment.
 - Ubuntu=16.04
