@@ -90,9 +90,6 @@ def run():
                             batch_entropy_loss, batch_lr))
             if epoch % save_term == 0:
                 print('Model saved at %d'%(epoch))
-                mAP = PQ_retrieval(sess, x, training_flag, feature_S, Z, n_book, Gallery_x, Query_x, label_Similarity,
-                                   TOP_K=n_DB)
-                print(model_load_path + " mAP: %.4f" % (mAP))
                 saver.save(sess=sess, save_path=model_save_path+'%d.ckpt'%(epoch))
 
 if __name__ == '__main__':
