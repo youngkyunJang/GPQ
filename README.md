@@ -1,6 +1,6 @@
 ## Generalized Product Quantization Network for Semi-supervised Image Retrieval
 Tensorflow implementation of GPQ    
-Accepted to CVPR 2020 - <a href="https://arxiv.org/abs/2002.11281">arxiv</a>  
+Accepted to CVPR 2020 - <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Jang_Generalized_Product_Quantization_Network_for_Semi-Supervised_Image_Retrieval_CVPR_2020_paper.pdf">paper</a>  
 Young Kyun Jang and Nam Ik Cho  
 
 ## Abstract
