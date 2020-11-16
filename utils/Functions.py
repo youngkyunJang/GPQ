@@ -77,7 +77,7 @@ def Soft_Assignment(z_, x_, n_book, alpha):
             soft_des_tmp = tf.matmul(softmax_diff, y[i], transpose_a=False, transpose_b=False)
             descriptor = tf.concat([descriptor, soft_des_tmp], axis=1)
 
-    return descriptor
+    return Intra_Norm(descriptor, n_book)
 
 def Intra_Norm(features, numSeg):
     x = tf.split(features, numSeg, 1)
@@ -90,13 +90,16 @@ def Intra_Norm(features, numSeg):
     return innorm
 
 # N_pair Product Quantization loss
-def N_PQ_loss(labels_Similarity, embeddings_x, embeddings_q, reg_lambda=0.002):
+def N_PQ_loss(labels_Similarity, embeddings_x, embeddings_q, n_book, reg_lambda=0.002):
 
   reg_anchor = tf.reduce_mean(tf.reduce_sum(tf.square(embeddings_x), 1))
   reg_positive = tf.reduce_mean(tf.reduce_sum(tf.square(embeddings_q), 1))
   l2loss = tf.multiply(0.25 * reg_lambda, reg_anchor + reg_positive, name='l2loss')
+  
+  embeddings_x = tf.nn.l2_normalize(embeddings_x, axis=1)
+  embeddings_q = tf.nn.l2_normalize(embeddings_q, axis=1)
 
-  FQ_Similarity = tf.matmul(embeddings_x, embeddings_q, transpose_a=False, transpose_b=True)
+  FQ_Similarity = tf.matmul(embeddings_x, embeddings_q, transpose_a=False, transpose_b=True)*n_book
 
   # Add the softmax loss.
   loss = tf.nn.softmax_cross_entropy_with_logits(logits=FQ_Similarity, labels=labels_Similarity)
