@@ -23,7 +23,7 @@ def run():
 
     logits_S = Net.C(feature_S * beta, tf.transpose(Prototypes) * beta)
 
-    hash_loss = N_PQ_loss(labels_Similarity=label_Mat, embeddings_x=feature_S, embeddings_q=descriptor_S)
+    hash_loss = N_PQ_loss(labels_Similarity=label_Mat, embeddings_x=feature_S, embeddings_q=descriptor_S, n_book)
     cls_loss = CLS_loss(label, logits_S)
     entropy_loss = SME_loss(feature_T * beta, tf.transpose(Prototypes) * beta, n_book)
 
