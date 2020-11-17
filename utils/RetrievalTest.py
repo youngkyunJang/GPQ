@@ -1,4 +1,5 @@
 from config import *
+from ./utils/Functions import Intra_Norm
 
 # Average Precision (AP) Calculation
 def cat_apcal(label_Similarity, IX, top_N):
@@ -27,7 +28,7 @@ def cat_apcal(label_Similarity, IX, top_N):
 
 # Find the closest codeword index
 def Indexing(Z, descriptor, numSeg):
-
+    Z = Intra_Norm(Z, numSeg)
     x = tf.split(descriptor, numSeg, 1)
     y = tf.split(Z, numSeg, 1)
     for i in range(numSeg):
