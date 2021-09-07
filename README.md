@@ -21,7 +21,6 @@ While training, codewords move toward unlabeled data points, and at the same tim
 ## How to use
 
 ### 1. Install requirements on your environment.
-- Ubuntu=16.04
 - Tensorflow=1.14
 - Tflearn=0.3.2
 - Numpy=1.16.6
