@@ -23,7 +23,6 @@ While training, codewords move toward unlabeled data points, and at the same tim
 ### 1. Install requirements on your environment.
 - Tensorflow=1.14
 - Tflearn=0.3.2
-- Numpy=1.16.6
 - Matplotlib=3.2.1
 
 ### 2. Preparation.
