@@ -81,4 +81,4 @@ year = {2020}
 
 ## Contacts
 
-Youngkyun Jang: kyun0914@ispl.snu.ac.kr
+Youngkyun Jang: kyun0914@gmail.com
